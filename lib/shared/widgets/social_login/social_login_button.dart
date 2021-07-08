@@ -23,7 +23,7 @@ class SocialLoginButton extends StatelessWidget {
         child: Row(
           children: [
             Expanded(
-              flex: 4,
+              flex: 1,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -38,6 +38,7 @@ class SocialLoginButton extends StatelessWidget {
               )
             ),
             Expanded(
+              flex: 4,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
